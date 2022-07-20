@@ -1,3 +1,13 @@
+:root{ /* metodo de almacenaje para su posterior uso de propiedades de customización de css */
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+
+    /* fuente principal --> --fuenteprincipal: 3.8rem */
+} 
+
 html{
     font-size: 62.5%;
 }
@@ -6,15 +16,9 @@ body{
     font-size: 16px; /* 1 rem = 10px */
 }
 
-h1{
+.title{
     text-align: center;
-    font-size: 3.8rem;
+    font-size: 3.8rem; /* var(--fuenteprincipal) */
+    font-family: 'Krub';
+    font-weight: 400;
 }
-
-span{
-    font-size: 2rem;
-}
-
-/* #title{
-    text-align: center;
-} */
