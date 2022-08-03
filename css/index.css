@@ -4,6 +4,7 @@
     --primario: #FFC107;
     --secundario: #0097A7;
     --gris: #757575;
+    --grisclaro: #DFE9F3; 
 
     /* fuente principal --> --fuenteprincipal: 3.8rem */
 } 
@@ -19,7 +20,8 @@ html{
 
 body{
     font-size: 16px; /* 1 rem = 10px */
-}
+    background-image: linear-gradient(to top, var(--grisclaro) 0%, var(--blanco) 100%); /* Definición de degradados */
+ }
 
 h1{
     font-size: 3.8rem;
