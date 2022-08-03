@@ -144,3 +144,14 @@ h1, h2, h3{
     padding: 2rem;
     border-radius: 1rem;
 }
+
+@media (min-width: 768px) {
+
+/* Clase de los Servicios */
+.servicios{
+    display: grid;
+    /* grid-template-columns: 300px, 300px;  |  -- Significa lo mismo --
+    grid-template-rows: 200px, 800px;        |  grid: 200px 800px / 300px 300px;   */
+    grid-template-columns: repeat(3, 1fr); /* División en fracciones de secciones */
+}
+}
